@@ -1,0 +1,63 @@
+<footer class="footer-area footer--light" ng-controller="pageController">
+    <div class="footer-big">
+        <!-- start .container -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="footer-widget">
+                        <div class="widget-about text-center">
+                            <div class="footer-font">FIND US</div>
+                            <ul class="contact-details">
+                                <li ng-repeat="contactFooter in contactFooters">
+                                    <p class="black-color">{{contactFooter.contactDesc}}</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="footer-widget">
+                        <div class="footer-menu">
+                            <div class="m-Logo">
+                                <img src="{{logo}}" alt="">
+                            </div>
+                            <div class="bg-footer"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="footer-widget">
+                        <div class="text-center">
+                            <div class="footer-font">FOLLOW US</div>
+                            <ul class="contact-details" style="margin: 25px 0 0 0;text-align: -webkit-center;">
+
+                                <li ng-repeat="socialFooter in socialFooters"
+                                    style="display: block;  margin-bottom: 1rem;">
+                                    <a id="socialButton" href="{{socialFooter.url}}" target="_blank">
+                                        <img src="{{socialFooter.icon}}" class="w-soclial" alt="">
+                                        <span class="desc-social black-color"> {{socialFooter.socialDesc}}</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mini-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <a href="#" class="black-color">© ReaXium 2019. All rights reserved.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

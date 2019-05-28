@@ -1,0 +1,117 @@
+<!--header-->
+<header ng-include="'includes/header.html'"></header>
+<section ng-controller="homeController">
+
+    <div class="pTB-65">
+        <div class="container pTB-20">
+            <div class="row">
+                <div class="col-lg col-md col-sm">
+                    <img src="{{fingerHandImg}}" alt="">
+                </div>
+                <div class="col-lg col-md col-sm">
+                    <img class="tittle-w" src="{{aboutLogo}}" alt="">
+                    <div class="text-center font-18 font-weight-bold left-align">{{titleDesc}}</div>
+                    <div class="p-35">
+                        <ul>
+                            <li class="pBT-5" ng-repeat="listSolution in listSolutions">
+                                <i class="{{listSolution.icon}}"></i>
+                                <span class="m-star-10 font-16 font-w-100">{{listSolution.listDesc}}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pTB-65">
+        <div class="container pTB-10">
+            <div class="row">
+                <div class="col-lg col-md col-sm item-center">
+                    <img class="tittle-w" src="{{clienLogo}}" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-client"></div>
+
+        <div class="container pTB-20 center-align">
+
+            <div class="row">
+                <div class="col-lg col-md col-sm mt-20" ng-repeat="clientImge in clientImges">
+                    <img src="{{clientImge.imgClient}}" alt="" class="client-w filter-img-grey">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pTB-65">
+        <div class="container pTB-10">
+            <div class="row">
+                <div class="col-lg col-md col-sm item-center">
+                    <img src="{{teamLogo}}" class="tittle-w" alt="">
+                </div>
+                <div class="col-md-12">
+                    <h2 class="item-center desc-title-page font-18">{{teamDesc}}</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-md col-sm " ng-repeat="teamCard in teamCards">
+                    <div class="card color-card text-center">
+                        <img src="{{teamCard.teamImg}}" alt="profile-pic" class="profile">
+                        <div class="uppercase-text font-weight-bold">{{teamCard.name}}</div>
+                        <p class="dev-title black-color">{{teamCard.job}}</p>
+                        <a href="{{teamCard.urlLinkedin}}" target="_blank">
+                            <img src="{{teamCard.svgIcon}}" alt="" class="icon-card">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pTB-65">
+        <div class="container pTB-10">
+            <div class="row">
+                <div class="col-lg col-md col-sm item-center">
+                    <img src="{{subscribeLogo}}" class="tittle-w" alt="">
+                </div>
+                <div class="col-md-12 col-sm ">
+                    <h2 class="item-center desc-title-page font-18">{{subsDesc}}</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-subs"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-md col-sm item-center">
+                    <div class="card-subs color-card text-center">
+                        <img src="assets/svg-image/logo-reaxium.svg" alt="profile-pic" class="logo-subs">
+                        <form action="" method="post">
+                            <div class="group">
+                                <input class="inputMaterial" type="text" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>FULL NAME OR COMPANY</label>
+                            </div>
+                            <div class="group">
+                                <input class="inputMaterial" type="email" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>EMAIL</label>
+                            </div>
+                            <button class="btn-subs">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer ng-include="'includes/footer.html'"></footer>

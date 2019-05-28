@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <title>Reaxium</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+            integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
+            crossorigin="anonymous"></script>
+
+</head>
+<body ng-app="App">
+<ng-view></ng-view>
+</body>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="node_modules/angular-route/angular-route.min.js"></script>
+<script src="js/app.js"></script>
+<script src="commons/routes/routes.js"></script>
+
+<!--Controllers-->
+<script src="js/controllers/homeController/homeController.js"></script>
+<script src="js/controllers/reaxiumController/reaxiumController.js"></script>
+<script src="js/controllers/pageController/pageController.js"></script>
+<script src="js/controllers/schoolController/schoolController.js"></script>
+
+<!--Services-->
+<script src="js/services/homeService.js"></script>
+<script src="js/services/reaxiumService.js"></script>
+
+</html>

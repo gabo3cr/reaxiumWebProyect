@@ -1,0 +1,5 @@
+var App = angular.module('App', ['ngRoute']);
+
+
+$("header").load("includes/header.html");
+$("footer").load("includes/footer.html");

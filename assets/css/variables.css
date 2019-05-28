@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #ffffff;
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+}
+
+
+blockquote {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+blockquote {
+    padding: 0 0 0 15px;
+    margin: 0 0 20px;
+}
+
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+caption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #777;
+    text-align: left;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+table > tbody + tbody {
+    border-top: 2px solid #ddd;
+}
+
+table table {
+    background-color: #fff;
+}
+
+table col[class*="col-"] {
+    position: static;
+    display: table-column;
+    float: none;
+}
+
+table td[class*="col-"],
+table th[class*="col-"] {
+    position: static;
+    display: table-cell;
+    float: none;
+}
+
+table > thead > tr > td.active,
+table > tbody > tr > td.active,
+table > tfoot > tr > td.active,
+table > thead > tr > th.active,
+table > tbody > tr > th.active,
+table > tfoot > tr > th.active,
+table > thead > tr.active > td,
+table > tbody > tr.active > td,
+table > tfoot > tr.active > td,
+table > thead > tr.active > th,
+table > tbody > tr.active > th,
+table > tfoot > tr.active > th {
+    background-color: #f5f5f5;
+}
+
+table > thead > tr > td.success,
+table > tbody > tr > td.success,
+table > tfoot > tr > td.success,
+table > thead > tr > th.success,
+table > tbody > tr > th.success,
+table > tfoot > tr > th.success,
+table > thead > tr.success > td,
+table > tbody > tr.success > td,
+table > tfoot > tr.success > td,
+table > thead > tr.success > th,
+table > tbody > tr.success > th,
+table > tfoot > tr.success > th {
+    background-color: #dff0d8;
+}
+
+table > thead > tr > td.info,
+table > tbody > tr > td.info,
+table > tfoot > tr > td.info,
+table > thead > tr > th.info,
+table > tbody > tr > th.info,
+table > tfoot > tr > th.info,
+table > thead > tr.info > td,
+table > tbody > tr.info > td,
+table > tfoot > tr.info > td,
+table > thead > tr.info > th,
+table > tbody > tr.info > th,
+table > tfoot > tr.info > th {
+    background-color: #d9edf7;
+}
+
+table > thead > tr > td.warning,
+table > tbody > tr > td.warning,
+table > tfoot > tr > td.warning,
+table > thead > tr > th.warning,
+table > tbody > tr > th.warning,
+table > tfoot > tr > th.warning,
+table > thead > tr.warning > td,
+table > tbody > tr.warning > td,
+table > tfoot > tr.warning > td,
+table > thead > tr.warning > th,
+table > tbody > tr.warning > th,
+table > tfoot > tr.warning > th {
+    background-color: #fcf8e3;
+}
+
+table > thead > tr > td.danger,
+table > tbody > tr > td.danger,
+table > tfoot > tr > td.danger,
+table > thead > tr > th.danger,
+table > tbody > tr > th.danger,
+table > tfoot > tr > th.danger,
+table > thead > tr.danger > td,
+table > tbody > tr.danger > td,
+table > tfoot > tr.danger > td,
+table > thead > tr.danger > th,
+table > tbody > tr.danger > th,
+table > tfoot > tr.danger > th {
+    background-color: #f2dede;
+}
+
+a {
+    text-decoration: none !important;
+    color: #212121;
+    transition: all 0.15s linear;
+}
+
+p {
+    font-size: 16px;
+    color: #212121;
+}
+
+@media (max-width: 600px) {
+    p {
+        font-size: 14px;
+        color: #212121;
+    }
+}
+
+figure {
+    margin: 0;
+    max-width: 100%;
+}
+
+select {
+    width: 100%;
+    border: 1px solid #4b5d73;
+    appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+}
+
+textarea {
+    height: auto;
+    min-height: 50px;
+}
+
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+    color: #4b5d73;
+}
+
+textarea:-moz-placeholder,
+input:-moz-placeholder {
+    color: #4b5d73;
+}
+
+textarea:-ms-input-placeholder,
+input:-ms-input-placeholder {
+    color: #4b5d73;
+}
+
+input, textarea {
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+
+input:-moz-submit-invalid, textarea:-moz-submit-invalid {
+    box-shadow: none;
+}
+
+input.wpcf7-form-control, textarea.wpcf7-form-control {
+    width: 100%;
+}
+
+/*------------- #Styles for list --------------*/
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list {
+    color: #273f5b;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    margin-bottom: 0.35em;
+    font-size: 1em;
+    overflow: hidden;
+    clear: both;
+    transition: all .3s ease;
+    font-weight: 400;
+    color: #212121;
+}
