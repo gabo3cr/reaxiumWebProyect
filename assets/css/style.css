@@ -207,10 +207,16 @@
 
 .bg-2-school {
     background-image: url(../../assets/img/bg-school-2.png);
-    background-size: 70%;
+    background-size: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
-    margin-left: 140px;
+}
+
+.bg-child {
+    background-image: url(../../assets/img/bg-child.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .desc-title-page{
@@ -262,6 +268,10 @@
 
 .mt-40 {
     margin-top: 40px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
 
 
@@ -597,6 +607,11 @@
 .icon-page {
     margin-top: 30px;
     height: 180px;
+}
+
+.devices-suites {
+    width: 700px;
+    height: 335px;
 }
 
 .logo-subs{
@@ -942,4 +957,155 @@ label {
 
 .width-wave {
     width: 40px;
+}
+
+.logo-school-suite-s {
+    width: 180px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.separator {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+.card-school-device {
+    /* border-radius: 6px; */
+    display: inline-block;
+    height: auto;
+    margin: 5px;
+    /* position: relative; */
+    width: 100%;
+    /* box-shadow: 0 7px 5px rgba(156, 155, 155, 0.16), 0 0px 9px rgba(142, 142, 142, 0.16); */
+    border: transparent;
+    transition: .6s all;
+}
+
+.color-yellow-s {
+    color: #7b7b7b;
+    text-shadow: #ffc880 0px 0px 5px, #ffdaa0 0px 0px 10px, #fff 0px 0px 15px, #ffffff 0px 0px 20px, #ffffff 0px 0px 30px, 2px 2px 2px rgba(206, 89, 55, 0);
+}
+
+.card-overlay-driver {
+    border-radius: 3px;
+    margin: 0 auto;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 0px 3px 5px -1px rgba(191, 191, 191, 0.2), 0px 5px 8px 0px rgba(183, 183, 183, 0.14), 0px 1px 14px 0px rgba(191, 191, 191, 0.12);
+    overflow: hidden;
+    background-image: url(../img/bg-driver.jpg);
+    background-size: cover;
+}
+
+.info {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    -webkit-transform: translateY(100%) translateY(-88px) translateZ(0);
+    transform: translateY(100%) translateY(-88px) translateZ(0);
+    transition: -webkit-transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+    transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+.info:before {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    -webkit-transform: translateY(-100%) translateY(88px) translateZ(0);
+    transform: translateY(-100%) translateY(88px) translateZ(0);
+    transition: -webkit-transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+    transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+.card-overlay-driver:hover .info,
+.card-overlay-driver:hover .info:before {
+    -webkit-transform: translateY(0) translateZ(0);
+    transform: translateY(0) translateZ(0);
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+    font-size: 26px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+    text-transform: uppercase;
+}
+
+.description-card-overlay {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.card-overlay-admin {
+    border-radius: 3px;
+    margin: 0 auto;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 0px 3px 5px -1px rgba(191, 191, 191, 0.2), 0px 5px 8px 0px rgba(183, 183, 183, 0.14), 0px 1px 14px 0px rgba(191, 191, 191, 0.12);
+    overflow: hidden;
+    background-image: url(../img/bg-school-adm.jpg);
+    background-size: cover;
+}
+
+
+.card-overlay-admin:hover .info,
+.card-overlay-admin:hover .info:before {
+    -webkit-transform: translateY(0) translateZ(0);
+    transform: translateY(0) translateZ(0);
+}
+
+.card-overlay-family {
+    border-radius: 3px;
+    margin: 0 auto;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 0px 3px 5px -1px rgba(191, 191, 191, 0.2), 0px 5px 8px 0px rgba(183, 183, 183, 0.14), 0px 1px 14px 0px rgba(191, 191, 191, 0.12);
+    overflow: hidden;
+    background-image: url(../img/bg-family.jpg);
+    background-size: cover;
+}
+
+
+.card-overlay-family:hover .info,
+.card-overlay-family:hover .info:before {
+    -webkit-transform: translateY(0) translateZ(0);
+    transform: translateY(0) translateZ(0);
+}
+
+.card-overlay-student {
+    border-radius: 3px;
+    margin: 0 auto;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 0px 3px 5px -1px rgba(191, 191, 191, 0.2), 0px 5px 8px 0px rgba(183, 183, 183, 0.14), 0px 1px 14px 0px rgba(191, 191, 191, 0.12);
+    overflow: hidden;
+    background-image: url(../img/bg-school-student.jpg);
+    background-size: cover;
+}
+
+
+.card-overlay-student:hover .info,
+.card-overlay-student:hover .info:before {
+    -webkit-transform: translateY(0) translateZ(0);
+    transform: translateY(0) translateZ(0);
 }
