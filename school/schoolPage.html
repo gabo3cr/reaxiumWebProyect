@@ -2,15 +2,61 @@
 
 <section ng-controller="schoolController">
 
-    <div class="pTB-65">
-        <div class="container pTB-20">
-            <div class="row">
-                <div class="col-lg col-md col-sm">
-                    <img src="assets/svg-image/solution.svg" alt="">
+    <div class="container pTB-65">
+        <div class="row">
+            <div class="col-sm text-center">
+                <img src="{{schoolPageLogo}}" class="title-solutions" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container pTB-65">
+        <div class="row">
+            <div class="col-sm">
+                <div class="color-yellow font-33 text-center">
+                    {{firstTitleSolution}}
+                </div>
+            </div>
+            <div class="col-sm z-index-1">
+                <img src="{{bgImage}}" class="bg-1-school" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container pTB-65">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="color-yellow font-33 text-center w60-m-auto">
+                    {{secondTitleSolution}}
+                </div>
+            </div>
+            <div class="col-lg-3 col-md col-sm " ng-repeat="iconDesc in iconDescs">
+                <div class="card-school-page color-card text-center">
+                    <img src="{{iconDesc.icon}}" alt="icon-page-pic" class="icon-page">
+                    <div class=" font-weight-bold">
+                        {{iconDesc.descIcon}}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container pTB-65 bg-2-school">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="color-yellow font-33 text-center w60-m-auto">
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md col-sm ">
+                <div class="card-school-page color-card text-center">
+                    <img src="" alt="icon-page-pic" class="icon-page">
+                    <div class=" font-weight-bold"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </section>
 

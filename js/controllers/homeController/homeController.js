@@ -14,32 +14,32 @@ App.controller('homeController', function ($scope, homeService) {
         {
             id: 1,
             listDesc: 'Cloud-based applications',
-            icon: 'fas fa-check font-list-icon'
+            icon: 'far fa-dot-circle'
         },
         {
             id: 2,
             listDesc: 'Real time monitoring & notifications',
-            icon: 'fas fa-check font-list-icon'
+            icon: 'far fa-dot-circle'
         },
         {
             id: 3,
             listDesc: 'Expertise in Android & iOS apps',
-            icon: 'fas fa-check font-list-icon'
+            icon: 'far fa-dot-circle'
         },
         {
             id: 4,
             listDesc: 'Mobile biometric devices',
-            icon: 'fas fa-check font-list-icon'
+            icon: 'far fa-dot-circle'
         },
         {
             id: 5,
             listDesc: 'Identity enrollment & authentication',
-            icon: 'fas fa-check font-list-icon'
+            icon: 'far fa-dot-circle'
         },
         {
             id: 6,
             listDesc: 'Customized innovative solutions',
-            icon: 'fas fa-check font-list-icon'
+            icon: 'far fa-dot-circle'
         }
     ];
 

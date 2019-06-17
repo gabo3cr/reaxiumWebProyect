@@ -1,0 +1,21 @@
+/*------------- #INTRO REAXIUM --------------*/
+
+@media (max-width: 768px) {
+    .logo-home {
+        width: 330px;
+    }
+
+    .item-margin-star-30 {
+        text-align: center;
+        margin-inline-start: 0px;
+    }
+
+    .btn-home-solution {
+        width: 110px;
+    }
+
+    .btn-desc {
+        font-size: 9px;
+        font-weight: bold;
+    }
+}

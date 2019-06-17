@@ -1,9 +1,13 @@
-
-
 App.config(['$routeProvider', function ($routeProvider) {
 
     $routeProvider
+
         .when('/', {
+            templateUrl: 'subscribe/subscribe.html',
+            controller: 'subscribeController'
+        })
+
+        .when('/reaxium', {
             templateUrl: 'reaxiumPage/reaxium.html',
             controller: 'reaxiumController'
         })

@@ -20,8 +20,27 @@
     color: #000000 !important;
 }
 
+.gradient-text {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #ddcefd 0%, #2f2cef 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.52vw;
+}
+
 .white-color{
     color: #ffffff;
+}
+
+.color-yellow {
+    color: #fbb03b;
+}
+
+.school-font {
+    font-weight: bold;
+    background: linear-gradient(to right, #ffa929 0%, #f5d04d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .gradient-color{
@@ -68,7 +87,8 @@
 
 .client-w{
     width: 200px;
-
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .filter-img-grey{
@@ -119,6 +139,26 @@
     overflow: hidden;
 }
 
+.bg-polygon {
+    background-image: url("../../assets/svg-image/polygon-bg.svg");
+    position: absolute;
+    background-size: 100%;
+    top: 30px;
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.bg-up {
+    background-image: url("../../assets/img/bg-team-up.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
 .bg-client {
     background-image: url(../../assets/svg-image/bg-client.svg);
     position: absolute;
@@ -145,6 +185,34 @@
     left: 90px;
 }
 
+
+.bg-adward {
+    background-image: url(../../assets/img/bg-adward.png);
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    opacity: .7;
+}
+
+
+.bg-subscribe {
+    background-image: url(../../assets/img/bg-subs-2.png);
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+.bg-2-school {
+    background-image: url(../../assets/img/bg-school-2.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-left: 140px;
+}
+
 .desc-title-page{
     padding-bottom: 20px;
     font-weight: bold;
@@ -167,6 +235,10 @@
     font-size: 22px;
 }
 
+.font-33 {
+    font-size: 33px;
+}
+
 .font-list-icon{
     font-size: 1.3rem;
 }
@@ -187,6 +259,11 @@
 .mt-20{
     margin-top: 20px;
 }
+
+.mt-40 {
+    margin-top: 40px;
+}
+
 
 .ml-auto{
     margin-right: 30px;
@@ -279,6 +356,14 @@
     background-color: transparent;
     border: 0;
     font-size: 14px;
+}
+
+.title-solutions {
+    width: 635px;
+}
+
+.z-index-1 {
+    z-index: -1;
 }
 
 /*------------- # STYLES FOOTER --------------*/
@@ -472,6 +557,19 @@
     opacity: .5;
 }
 
+.card-school-page {
+    border-radius: 6px;
+    display: inline-block;
+    height: auto;
+    margin: 1rem;
+    /* position: relative; */
+    width: 100%;
+    /* box-shadow: 0 7px 5px rgba(156, 155, 155, 0.16), 0 0px 9px rgba(142, 142, 142, 0.16); */
+    border: transparent;
+    transition: .6s all;
+}
+
+
 
 .card-elevation{
     /*sombra*/
@@ -490,11 +588,34 @@
     border: 2px solid #ffffff;
 }
 
+.logo-card-subs {
+    margin-top: 30px;
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.icon-page {
+    margin-top: 30px;
+    height: 180px;
+}
+
 .logo-subs{
     margin-top: 10px;
     width: 182px;
     height: 128px;
     margin-bottom: 40px;
+}
+
+
+.card-page-subs {
+    border-radius: 6px;
+    display: inline-block;
+    margin: 1rem;
+    width: 400px;
+    box-shadow: 0 7px 5px rgb(191, 191, 191), 0 0px 9px rgba(142, 142, 142, 0.16);
+    border: transparent;
+    transition: .6s all;
+    height: 460px;
 }
 
 
@@ -708,11 +829,117 @@ label {
     -moz-transition: 3s all;
     -ms-transition: 3s all;
     -o-transition: 3s all;
-    transition: 3s all;
+    transition: 1s all;
 }
+
+
 
 .btn-subs:hover{
-    border: 2px solid #000000;
-    box-shadow: 5px 7px 20px 0 rgba(99, 99, 99, 0.73);
+    border: transparent;
+    box-shadow: 5px 7px 20px 0 rgba(239, 57, 149, 0.73);
+    background: #ff227e;
+    color: #ffffff;
 }
 
+
+.btn-subs-page {
+    background: rgb(23, 1, 49);
+    /*
+    background: -moz-linear-gradient(left, rgb(118, 91, 226) 0%, rgb(255, 129, 187) 100%);
+    background: -webkit-linear-gradient( rgb(118, 91, 226) 0%, rgb(255, 129, 187) 100%);
+    background: -o-linear-gradient(left, rgb(118, 91, 226) 0%, rgb(255, 129, 187) 100%);
+    background: -ms-linear-gradient(left, rgb(118, 91, 226) 0%, rgb(255, 129, 187) 100%);
+    background: linear-gradient(to right, rgb(118, 91, 226) 0%, rgb(255, 129, 187) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a81b2e', endColorstr='#8f03ed', GradientType=1 );*/
+    color: #fffafa;
+    font-weight: bold;
+    border: none;
+    opacity: 1 !important;
+    z-index: 1;
+    border-radius: 50px;
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    -webkit-transition: 3s all;
+    -moz-transition: 3s all;
+    -ms-transition: 3s all;
+    -o-transition: 3s all;
+    transition: 1s all;
+}
+
+.btn-subs:focus {
+    outline: 0px !important;
+}
+
+.btn-subs-page:focus {
+    outline: 0px !important;
+}
+
+.bg-1-school {
+    margin-top: -170px;
+    width: 500px;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.icon-school-white {
+    font-size: 3rem;
+    color: white;
+}
+
+
+.w60-m-auto {
+    width: 60%;
+    margin: auto;
+}
+
+.margin-subs-card {
+    align-items: center;
+    /* justify-content: center; */
+    padding: 110px;
+}
+
+.letter-spacing-card {
+    letter-spacing: 6px;
+    font-family: sans-serif;
+}
+
+.flex-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.wave1 {
+    z-index: 1;
+    position: absolute;
+    top: 290px;
+    text-align: center;
+    justify-content: center;
+    left: 290px;
+    right: 0;
+}
+
+.width-wave {
+    width: 40px;
+}
+
+.wave2 {
+    z-index: 1;
+    position: absolute;
+    top: 290px;
+    text-align: center;
+    justify-content: center;
+    left: 290px;
+    right: 0;
+}
+
+.width-wave {
+    width: 40px;
+}

@@ -1,4 +1,4 @@
-<div class="bg-wave"></div>
+<div class="bg-polygon"></div>
 <div class="container" ng-controller="reaxiumController">
     <div class="row">
         <div class="col-lg col-md col-sm text-center">
@@ -7,14 +7,14 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+            <div class="col-lg col-md col-sm text-center">
                 <h2 class="sub-tittle-logo">{{subTitle}}</h2>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-2 col-md-2 col-sm-2 item-margin-star-30" ng-repeat="selectSolution in selectSolutions">
+            <div class="col-lg col-md col-sm item-margin-star-30" ng-repeat="selectSolution in selectSolutions">
                 <a href="{{selectSolution.url}}">
                     <img src="{{selectSolution.svgButton}}" class="btn-home-solution" alt="">
                     <p class="btn-desc">{{selectSolution.desc}}</p>
@@ -23,3 +23,4 @@
         </div>
     </div>
 </div>
+
