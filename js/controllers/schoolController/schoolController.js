@@ -1,9 +1,9 @@
 App.controller('schoolController', function ($scope) {
 
-    $scope.schoolPageLogo = 'assets/svg-image/solution.svg';
+    $scope.schoolPageLogo = 'assets/svg-image/schoolSuite.svg';
     $scope.bgImage = 'assets/img/bg-school-1.png';
-    $scope.firstTitleSolution = 'CONNECTING SCHOOL & FAMILIES TO MAKE SURE EVERY STUNDET COUNTS';
-    $scope.secondTitleSolution = 'DO YOU WANT A COMPLETE VIEW OF YOUR SCHOOLS DAILY ACTIVITY?';
+    $scope.firstTitleSolution = 'Connecting School & Families to Make Sure Every Student Counts';
+    $scope.secondTitleSolution = 'Do You Want A Complete View of Your Schools Daily Activity?';
 
     $scope.iconDescs = [
         {

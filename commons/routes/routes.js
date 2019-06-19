@@ -22,6 +22,11 @@ App.config(['$routeProvider', function ($routeProvider) {
             controller:  'schoolController'
         })
 
+        .when('/contact', {
+            templateUrl: 'contactUs/contact.html',
+            controller: 'contactController'
+        })
+
         .otherwise({
             redirectTo: '/reaxium.html'
         })
