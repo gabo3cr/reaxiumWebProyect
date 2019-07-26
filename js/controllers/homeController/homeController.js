@@ -28,7 +28,7 @@ App.controller('homeController', function ($scope, homeService) {
         },
         {
             id: 4,
-            listDesc: 'Mobile biometric devices',
+            listDesc: 'Mobile biometric solutions',
             icon: 'far fa-dot-circle'
         },
         {
@@ -78,7 +78,7 @@ App.controller('homeController', function ($scope, homeService) {
         {
             id: 1,
             teamImg: 'assets/svg-image/team-icon.svg',
-            name: 'Maria Sylvia',
+            name: 'Maria',
             job: 'Solutions Specialist Manager',
             svgIcon: 'assets/svg-image/linkedin.svg',
             urlLinkedin: 'https://www.linkedin.com/in/mariasylviariquezes/',
@@ -86,7 +86,7 @@ App.controller('homeController', function ($scope, homeService) {
         {
             id: 2,
             teamImg: 'assets/svg-image/team-icon.svg',
-            name: 'Eduardo Luttinger',
+            name: 'Eduardo',
             job: 'Software Development Manager',
             svgIcon: 'assets/svg-image/linkedin.svg',
             urlLinkedin: 'https://www.linkedin.com/in/eduardoluttinger/',
@@ -94,7 +94,7 @@ App.controller('homeController', function ($scope, homeService) {
         {
             id: 3,
             teamImg: 'assets/svg-image/team-icon.svg',
-            name: 'Estefania Cedeño',
+            name: 'Estefania',
             job: 'Design & Social Media Manager',
             svgIcon: 'assets/svg-image/linkedin.svg',
             urlLinkedin: 'https://www.linkedin.com/in/estefania-c-da-silva-0988b531/'
@@ -102,7 +102,7 @@ App.controller('homeController', function ($scope, homeService) {
         {
             id: 4,
             teamImg: 'assets/svg-image/team-icon.svg',
-            name: 'Paola Da Silva',
+            name: 'Paola',
             job: 'Quality Assurance',
             svgIcon: 'assets/svg-image/linkedin.svg',
             urlLinkedin: 'https://www.linkedin.com/in/paola-da-silva-b42666107/'
@@ -110,7 +110,7 @@ App.controller('homeController', function ($scope, homeService) {
         {
             id: 5,
             teamImg: 'assets/svg-image/team-icon.svg',
-            name: 'Gabriel Carrillo',
+            name: 'Gabriel',
             job: 'Front End Development',
             svgIcon: 'assets/svg-image/linkedin.svg',
             urlLinkedin: 'https://www.linkedin.com/in/henry-gabriel-carrillo-mu%C3%B1oz-551621128/'
@@ -118,7 +118,7 @@ App.controller('homeController', function ($scope, homeService) {
         {
             id: 6,
             teamImg: 'assets/svg-image/team-icon.svg',
-            name: 'Pablo Sierra',
+            name: 'Pablo',
             job: 'Software Development',
             svgIcon: 'assets/svg-image/linkedin.svg',
             urlLinkedin: 'https://www.linkedin.com/in/pablo-sierra-3309bb149/'
@@ -126,7 +126,7 @@ App.controller('homeController', function ($scope, homeService) {
         {
             id: 7,
             teamImg: 'assets/svg-image/team-icon.svg',
-            name: 'Jesus Gonzalez',
+            name: 'Jesus',
             job: 'Software Development',
             svgIcon: 'assets/svg-image/linkedin.svg',
             urlLinkedin: 'https://www.linkedin.com/in/jesus-gonzalez-b5b561165/'
@@ -134,7 +134,7 @@ App.controller('homeController', function ($scope, homeService) {
         {
             id: 8,
             teamImg: 'assets/svg-image/team-icon.svg',
-            name: 'Jose Martinez',
+            name: 'Jose',
             job: 'Software Development',
             svgIcon: 'assets/svg-image/linkedin.svg',
             urlLinkedin: 'https://www.linkedin.com/in/jose-martinez-0b339539/'
@@ -142,7 +142,7 @@ App.controller('homeController', function ($scope, homeService) {
         {
             id: 8,
             teamImg: 'assets/svg-image/team-icon.svg',
-            name: 'Marjorie Figuera',
+            name: 'Marjorie',
             job: 'Graphic Designer',
             svgIcon: 'assets/svg-image/linkedin.svg',
             urlLinkedin: 'https://www.linkedin.com/in/marjorie-figuera-p%C3%A9rez-7467a45a/'

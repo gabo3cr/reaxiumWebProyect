@@ -22,7 +22,7 @@
 
 .gradient-text {
     text-transform: uppercase;
-    background: linear-gradient(to right, #ddcefd 0%, #2f2cef 100%);
+    background: linear-gradient(to right, #ffbd59 0%, #ff5757 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.52vw;
@@ -661,6 +661,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+. gradient-text
 }
 #cont-lock {
     width: 100%;
@@ -879,14 +880,14 @@ label {
 
 .btn-subs:hover{
     border: transparent;
-    box-shadow: 5px 7px 20px 0 rgba(239, 57, 149, 0.73);
-    background: #ff227e;
-    color: #ffffff;
+    box-shadow: 5px 7px 20px 0 rgba(204, 204, 204, 0.73);
+    background: #ffffff;
+    color: #222221;
 }
 
 
 .btn-subs-page {
-    background: rgb(23, 1, 49);
+    background: rgb(255, 121, 88);
     /*
     background: -moz-linear-gradient(left, rgb(118, 91, 226) 0%, rgb(255, 129, 187) 100%);
     background: -webkit-linear-gradient( rgb(118, 91, 226) 0%, rgb(255, 129, 187) 100%);
